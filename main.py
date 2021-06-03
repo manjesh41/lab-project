@@ -1,5 +1,4 @@
-l=12
-h=6
-a=l*h/2
-print(f"the sum of area is {a}")
-print(type(a))
+breadth=float(input('enter the breadth of triangle'))
+height=float(input('enter the height of triangle'))
+area=1/2*breadth*height
+print(f"the area of triangle is{area}")
